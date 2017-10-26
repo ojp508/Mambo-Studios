@@ -1,6 +1,41 @@
 <html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		
+		<script type="text/javascript">
+			function showAssessment(assessment) {
+				for(var i = 1; i <= 4; i++) {
+					document.getElementById("assessment_" + i).style.display = "none";
+				}
+			
+				document.getElementById("assessment_" + assessment).style.display = "block";
+			}
+		</script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="title">Mambos Studios</div>
+			
+			<a href="#" class="assessment" onClick="showAssessment(1)">1</a>
+			<a href="#" class="assessment" onClick="showAssessment(2)">2</a>
+			<a href="#" class="assessment" onClick="showAssessment(3)">3</a>
+			<a href="#" class="assessment" onClick="showAssessment(4)">4</a>
+			
+			<div class="block" id="assessment_1">
+				assessment 1
+			</div>
+			
+			<div class="block" id="assessment_2">
+				assessment 2
+			</div>
 
-<body>
-<h1> Mambo Studios </h1>
-</body>
+			<div class="block" id="assessment_3">
+				assessment 3
+			</div>
+
+			<div class="block" id="assessment_4">
+				assessment 4
+			</div>			
+		</div>
+	</body>
 </html>
