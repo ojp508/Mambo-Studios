@@ -40,12 +40,19 @@
 	display: none;
 }
 
-
+.para{
+	color: black;
+	font-size: 15px;
+	text-align: center;
+		display: inline-block;
+	width: 100%;
+}
 
 .header1 {
 	color: black;
 	font-size: 25px;
 	font-weight: bold;
+
 }
 
 .header2 {
@@ -58,6 +65,18 @@
 	text-align: center;
 
 }
+
+.header3 {
+	display: inline-block;
+  width: 100%;
+  text-align: center;
+	color: black;
+	font-size: 13px;
+	text-align: center;
+	text-decoration: underline;
+
+}
+
 
 
 
