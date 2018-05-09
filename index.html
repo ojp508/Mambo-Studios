@@ -4,7 +4,7 @@
 		
 		<script type="text/javascript">
 			function showAssessment(assessment) {
-				for(var i = 0; i <= 4; i++) {
+				for(var i = 1; i <= 4; i++) {
 					document.getElementById("assessment_" + i).style.display = "none";
 				}
 			
@@ -14,15 +14,12 @@
 	</head>
 	<body>
 		<div id="wrapper"> 
-			<a href="#" class="assessment" onClick="showAssessment(0)"><div id="title">Un-Two</div></a>
+			<div id="title">Un-Two</div>
 			<a href="#" class="assessment" onClick="showAssessment(1)">Assessment 1</a>
 			<a href="#" class="assessment" onClick="showAssessment(2)">Assessment 2</a>
 			<a href="#" class="assessment" onClick="showAssessment(3)">Assessment 3</a>
 			<a href="#" class="assessment" onClick="showAssessment(4)">Assessment 4</a>
 			
-			<div class="block" id="assessment_0">
-				test
-			</div>
 			<div class="block" id="assessment_1">
 				<span class="header1"> Assessment 1 Deliverables</span> 
 					</br>
